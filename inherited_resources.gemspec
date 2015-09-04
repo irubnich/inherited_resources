@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files         = Dir["app/**/*", "lib/**/*", "README.md", "MIT-LICENSE"]
   s.require_paths = ["lib"]
 
-  s.add_dependency("responders")
+  s.add_dependency("responders", "~> 2.1.0")
   s.add_dependency("actionpack", ">= 3.2", "< 5")
   s.add_dependency("railties", ">= 3.2", "< 5")
   s.add_dependency("has_scope",  "~> 0.6.0.rc")
